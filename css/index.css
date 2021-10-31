@@ -1,0 +1,182 @@
+.main {
+    height: 455px;
+    width: 980px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+    /* top: -50%; */
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+}
+.arrow-r {
+    right: 0;
+}
+.arrow-l {
+    left: 0;
+}
+.circle {
+    position:absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    margin:0 3px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 50%;
+    cursor: pointer;
+    /* background-color: #fff; */
+}
+.current {
+    background-color: #fff;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: #444; */
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+    /* background-color: pink; */
+}
+.news-hd {
+    height: 32px;
+    padding: 0 15px;
+    line-height: 32px;
+    font-size: 14px;
+    border-bottom: 1px dotted #ccc;
+}
+.news-hd a {
+    float: right;
+    font-size: 12px;
+}
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+.news-bd li {
+    height: 23px;
+}
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifeservice ul { /* 因为边框问题，盒子float会出现被顶下去的情况，所以需要额外设置高度 */
+    width: 252px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+    display: block;
+    overflow: hidden; 
+    /* 解决出现的外边距合并问题 */
+    height: 100%;
+}
+.lifeservice li p {
+    text-align: center ;
+}
+.service_icon {
+    display: block;
+    margin: 10px auto;
+    width: 24px;
+    height: 24px;
+    /* background-color: pink; */
+    background: url(../img/icons.png) no-repeat;
+}
+.service_icon_huafei {
+    background-position: -17px -16px;
+}
+.service_icon_feiji {
+    width: 26px;
+    background-position: -78px -16px;
+}
+.hot {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 12px;
+    height: 15px;
+    background:url(../img/jian.jpg);
+}
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+    background-color: #aaa;
+}
+
+.recommond {
+    height: 163px;
+    margin-top: 10px;
+    /* background-color: pink; */
+}
+
+.rec-hd {
+    float: left;
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.rec-hd img {
+    margin: 30px 0 10px 0;
+} 
+.rec-hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.rec-db {
+    float: right;
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.rec-db li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    margin-top: 10px;
+    border-right: 1px solid #ccc;
+    /* background-color: pink; */
+}
+.rec-db .last {
+    border-right: 0;
+}
+
+/* 楼层区域 */
+.box-hd {
+    height: 30px;
+    margin-top: 25px;
+    background-color: pink;
+    border-bottom: 2px solid #c81623;
+}
