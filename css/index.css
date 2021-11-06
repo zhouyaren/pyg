@@ -177,6 +177,92 @@
 .box-hd {
     height: 30px;
     margin-top: 25px;
-    background-color: pink;
+    /* background-color: pink; */
     border-bottom: 2px solid #c81623;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.box-hd .box-list {
+    float: right;
+    line-height: 30px;
+}
+.box-list li {
+    float: left;
+}
+.box-list li a {
+    margin: 0 15px;
+}
+.box-db {
+    height: 360px;
+    overflow: hidden;
+    /* background-color: pink; */
+}
+.box-db img {
+    transition: all .2s;
+}
+.box-db img:hover {
+    margin-left: 8px;
+}
+
+/* 209 329 219+1 border */
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+.w329 {
+    width: 329px;
+}
+.w219 {
+    width: 219px;  
+    border-right: 1px solid #ccc;
+}
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-con li {
+    height: 360px;
+    float: left;
+}
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+.tab-con-list {
+    overflow: hidden;
+    margin-bottom: 10px;
+    /* 在这里，光加一个margin-top 是不行的，父盒子没有高度，
+    并且子元素浮动了，加margin值不会把元素挤下去，所以要在这里清楚浮动 */
+}
+.tab-con-list li {
+    float: left;
+    margin-left: 10px;
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+}
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    /* 固定定位导航，要贴近中心页面固定不变，先往 left 页面的50% + margin-left 版心的一半 + 自身宽度 + 适当调整距离 */
+    width: 66px;
+    background-color: #fff;
+}
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.fixedtool .current {
+    color: #fff;
+    background-color: #c81623;
 }

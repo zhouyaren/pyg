@@ -167,7 +167,13 @@
     line-height: 31px;
     margin-left: 1px;
     padding:0 10px;/* 一个盒子没有宽度，所以加padding值不会撑大盒子*/
+    transition: all .5s;
 }
+
+.nemu_item:hover {
+    padding-left: 20px;
+}
+
 .nemu_item:hover {
     background-color: #fff;
 }
@@ -277,3 +283,4 @@
 .mod_copyright_links {
     margin: 20px 0 15px 0;
 }
+

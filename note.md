@@ -82,3 +82,16 @@ font-size：0px；
 
 4、最后给连接 一个title这样，鼠标方到logo上。就可以看到提示文字。
 
+#### css3知识点-过渡
+过渡写在本身上。不要写在hover 身上
+低版本浏览器不支持。
+transition: 要过度的属性，花费时间，运动曲线，何时开始。
+transition: width 1s ease[默认] 2s【2s后触发，默认 0】
+如果有多组属性，用逗号隔开。
+
+transition：all 1s ease 0s；
+或者：
+transition：all 1s；
+
+#### :focus 获得焦点元素，伪类选择器
+主要针对表单，其他元素没有焦点，获得焦点之后，可以向hover一样，任意修改样式等。

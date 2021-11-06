@@ -1,0 +1,86 @@
+.de_container {
+    margin-top: 20px;
+}
+.crumb_wrap a {
+    margin-right: 10px;
+}
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+    /* background-color: pink; */
+}
+.preview_img {
+    width: 398px;
+    height: 398px;
+    border: 1px solid #ccc;
+}
+.previre_list {
+    position: relative;
+    height: 60px;
+    /* background-color: pink; */
+    margin-top: 60px;
+}
+.list_item {
+    width: 320px;
+    height: 60px;
+    /* background-color: purple; */
+    margin: 0 auto;
+}
+.list_item li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    /* background-color: skyblue; */
+    border: 2px solid transparent;
+    margin: 0 2px;
+}
+
+.list_item li.current{
+    border-color: #c81623;
+}
+.arrow_prev,
+.arrow_next {
+    position: absolute;
+    top: 15px;
+    width: 32px;
+    height: 32px;
+    /* background-color: purple; */
+}
+.arrow_prev {
+    left: 0;
+    background: url(../img/arrow-prev.png) no-repeat;
+}
+.arrow_next {
+    right: 0;
+    background: url(../img/arrow-next.png) no-repeat;
+
+}
+.itemInfo_wrap {
+    width: 718px;
+    /* background-color: purple; */
+}
+.sku_name {
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.news {
+    height: 32px;
+    color: #e12228;
+}
+.summery dl {
+    /* 清除浮动的一种方式，并且下面所有的dt 和 dd都要浮动。所以给爷爷级别清除浮动 */
+    overflow: hidden;
+}
+.summery_prize {
+    padding: 10px 0;
+    background-color: #fee9eb;
+}
+.summery dt,
+.summery dd {
+    float: left;
+}
+.summery dt {
+    width: 60px;
+    padding-left: 10px;
+}
